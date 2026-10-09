@@ -1,5 +1,3 @@
-Here is an academic-style README for your repository:
-
 # MCA Programming Lab
 
 ## Overview
