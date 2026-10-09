@@ -7,11 +7,11 @@ The repository is organized into multiple sections, each focusing on a specific 
 
 ## Objectives
 The primary objectives of this repository are to:
-- practice core Python programming concepts
-- develop logical and analytical thinking
-- implement laboratory questions effectively
-- reinforce understanding of data structures and string manipulation
-- improve proficiency in writing clean and functional Python programs
+- Practice core Python programming concepts
+- Develop logical and analytical thinking
+- Implement laboratory questions effectively
+- Reinforce understanding of data structures and string manipulation
+- Improve proficiency in writing clean and functional Python programs
 
 ## Repository Structure
 
@@ -75,7 +75,6 @@ This section includes tasks on string processing and dictionary handling:
 The programs in this repository are written using Python 3 and can be executed with:
 - Python IDLE
 - VS Code
-- PyCharm
 - any standard Python interpreter
 
 ## Running the Programs
@@ -123,8 +122,3 @@ This repository currently does not include a specific license. It is intended fo
 
 ## Notes
 This repository serves as a practical lab record for Python programming exercises and may be expanded with additional topics and assignments in the future.
-
-If you want, I can also convert this into:
-- a more formal university-style README
-- a polished GitHub-ready version with badges
-- a concise student-friendly version
