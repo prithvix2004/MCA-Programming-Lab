@@ -1,0 +1,51 @@
+#6 (a) Program to find the factorial of a number.
+n = int(input("Enter a number : "))
+if n < 0:
+    print("Factorial is not defined for negative numbers.. Try again..")
+else:
+    f = 1
+    for i in range(1, n+1):
+        f *= i
+    print(f)
+
+#6 (b) Generate Fibonacci series of N terms.
+n = int(input("Enter number of terms : "))
+a, b = 0, 1
+
+for i in range(n) :
+    print(a, end = " ")
+    a, b = b, a + b
+
+#6 (c) Find the sum of all items in a list.
+a = [10, 20, 30, 40, 50]
+res = 0 # Initialize sum variable
+
+for i in a:
+    res += i 
+print(res)
+
+#6 (d) Generate a list of four digit numbers in a given range with all their digits even and the number is a perfect square.
+def four_digit_even_digit_squares(start, end):
+    result = []
+    for n in range(int(start ** 0.5), int(end ** 0.5) + 1):
+        sq = n * n
+        if start <= sq <= end:
+            digits = str(sq)
+            if all(int(d) % 2 == 0 for d in digits):
+                result.append(sq)
+    return result
+
+print(four_digit_even_digit_squares(1000, 9999))
+
+'''6 (e) Display the given pyramid with step number accepted from user.
+Like :
+1
+2 4
+3 6 9
+4 8 12 16'''
+n = int(input("Enter the number of rows: "))
+
+for i in range(1, n + 1):
+    for j in range(1, i + 1):
+        print(i * j, end=" ")
+    print()
