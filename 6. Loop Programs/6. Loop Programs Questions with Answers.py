@@ -49,3 +49,33 @@ for i in range(1, n + 1):
     for j in range(1, i + 1):
         print(i * j, end=" ")
     print()
+
+#6 (f) Count the number of characters (character frequency) in a string.
+input_string = "Hello, World!"
+char_frequency = {}
+for char in input_string:
+    if char in char_frequency:
+        char_frequency[char] += 1
+    else:
+        char_frequency[char] = 1
+print(char_frequency)
+
+#6 (g) Add 'ing' at the end of a given string. If it already ends with 'ing', then add 'ly'.
+def add_suffix(string):
+   if len(string) < 3:
+       return string
+   elif string.endswith('ing'):
+       return string + 'ly'
+   else:
+       return string + 'ing'
+
+print(add_suffix('abc'))
+print(add_suffix('string'))
+print(add_suffix('ab'))
+
+#6 (h) Accept a list of words and return length of longest word.
+a = ["Welcome", "to", "Python", "programming"]
+
+# Use max() with key=len to find the word with the maximum length
+res = len(max(a, key=len))
+print(res)
