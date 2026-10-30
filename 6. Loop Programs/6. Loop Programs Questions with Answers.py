@@ -79,3 +79,23 @@ a = ["Welcome", "to", "Python", "programming"]
 # Use max() with key=len to find the word with the maximum length
 res = len(max(a, key=len))
 print(res)
+
+'''6 (i) Construct following pattern using nested loop.
+*
+* *
+* * *
+* * * *
+* * *
+* *
+*'''
+n=int(input("enter the number of row: "))
+
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(i*j, end=" ")
+    print()
+
+#6 (j) Generate all factors of a number.
+n = int(input("Enter a number : "))
+factors = [i for i in range(1, n + 1) if n % i == 0]
+print(factors)
