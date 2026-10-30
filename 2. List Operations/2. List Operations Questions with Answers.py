@@ -1,4 +1,4 @@
-#2. List Operations
+#2. List Operations (CO1)
 #2. (a) Create a list to store any five integers and display it.
 num = [1, 2, 3, 4, 5]
 print(num)
