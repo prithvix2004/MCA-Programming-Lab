@@ -1,4 +1,4 @@
-#String and Dictionary Operations
+#String and Dictionary Operations (CO1)
 #5 (a) Store a list of first names. Count the occurances of 'a' within the list.
 fname = ["Akash", "Anushya", "Gowri", "Kiran", "Prithvi"]
 s = sum(i.lower().count('a') for i in fname)
