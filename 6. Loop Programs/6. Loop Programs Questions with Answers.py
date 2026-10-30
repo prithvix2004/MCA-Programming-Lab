@@ -1,3 +1,4 @@
+#Loop Programs
 #6 (a) Program to find the factorial of a number.
 n = int(input("Enter a number : "))
 if n < 0:
