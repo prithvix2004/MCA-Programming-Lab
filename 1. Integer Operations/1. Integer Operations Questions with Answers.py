@@ -1,4 +1,4 @@
-#1. Integer Operations
+#1. Integer Operations (CO1)
 #1. (a) Accept the radius from a user to find the area of the circle.
 radius = int(input("Enter a radius : "))
 area = 3.14*radius*radius
