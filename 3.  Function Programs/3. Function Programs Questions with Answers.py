@@ -1,4 +1,4 @@
-#3. Function Programs
+#3. Function Programs (CO1)
 #3. (a) Function program to print "Hello World".
 def func():
     print("Hello World..")
