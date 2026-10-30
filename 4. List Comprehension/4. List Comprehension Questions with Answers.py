@@ -1,4 +1,4 @@
-#4. List Comprehension
+#4. List Comprehension (CO1)
 #4. (a) Generate positive list of numbers from a given list of integers.
 n = [1, 2, 3, 4, 5, 6, -2, -4]
 list = [i for i in n if i>0]
