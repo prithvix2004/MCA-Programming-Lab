@@ -5,23 +5,30 @@ square = lambda m: m * m
 print("Square of the first number is:", square(m))
 
 #7 (b) Write lambda functions to find area of square, rectangle and triangle.
+area_square = lambda s: s * s
+area_rectangle = lambda l, b: l * b
+area_triangle = lambda b, h: 0.5 * b * h
+
 def calc_area(shape):
     shape = shape.lower()
-
+    
     if shape == "square":
         s = float(input("Enter side: "))
-        print(f"Area: {s * s}")
-
+        print(f"Area: {area_square(s)}")
+        
     elif shape == "rectangle":
         l = float(input("Enter length: "))
         b = float(input("Enter breadth: "))
-        print(f"Area: {l * b}")
-
-    elif shape == "triangle":
-        h = float(input("Enter height: "))
-        b = float(input("Enter base: "))
-        print(f"Area: {0.5 * b * h}")
+        print(f"Area: {area_rectangle(l, b)}")
         
+    elif shape == "triangle":
+        b = float(input("Enter base: "))
+        h = float(input("Enter height: "))
+        print(f"Area: {area_triangle(b, h)}")
+        
+    else:
+        print("Invalid shape name entered.")
+
 if __name__ == "__main__":
     shape_name = input("Enter shape name: ")
     calc_area(shape_name)
