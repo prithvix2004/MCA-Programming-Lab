@@ -27,55 +27,88 @@ MCA-Programming-Lab/
 │   └── 4. List Comprehension Questions with Answers.py
 ├── 5.  String and Directory Operations/
 │   └── 5. String and Dictionary Operations Questions with Answers.py
-├── README.md
+├── 6. Loop Programs/
+│   └── 6. Loop Programs Questions with Answers.py
+├── 7. Lambda Functions/
+│   └── 7. Lambda Functions Questions With Answers.py
+├── 8. Regular Expressions/
+│   └── 8. Regular Expressions Questions With Answers.py
+├── 9. Class Operations/
+│   └── 9. Class Operations Questions With Answers.py
+├── 10. File Operations/
+│   └── 10. File Operations Questions With Answers.py
+├── 11/
+│   └── 11. Question With Answer.py
+├── Question - Disarium Number.py
+├── Question - Happy Number.py
+├── lab cycle-1.docx
+└── README.md
 ```
 
 ## Topics Covered
 
 ### 1. Integer Operations
 This section includes problems based on arithmetic and decision-making logic such as:
-- calculating the area of a circle
-- finding the largest of three numbers
-- computing n + nn + nnn
-- determining the greatest common divisor (GCD)
+- Calculating the area of a circle
+- Finding the largest of three numbers
+- Computing `n + nn + nnn`
+- Determining the greatest common divisor (GCD)
 
 ### 2. List Operations
 This section focuses on constructing and manipulating lists, including:
-- creating and displaying lists
-- accessing elements by index
-- filtering odd or even values
-- replacing values above a threshold
-- comparing lists based on length, sum, and common elements
+- Creating and displaying lists
+- Accessing elements by index
+- Filtering odd or even values
+- Replacing values above a threshold
+- Comparing lists based on length, sum, and common elements
 
 ### 3. Function Programs
 This section introduces function-based problem solving, covering:
-- defining and calling functions
-- displaying user-specific output
-- computing sum and product of values
-- generating leap years using a function
+- Defining and calling functions
+- Displaying user-specific output
+- Computing the sum and product of values
+- Generating leap years using a function
 
 ### 4. List Comprehension
 This section demonstrates concise Python expressions for:
-- selecting positive numbers
-- squaring list elements
-- extracting vowels from a word
-- finding the ASCII value of characters
+- Selecting positive numbers
+- Squaring list elements
+- Extracting vowels from a word
+- Finding the ASCII value of characters
 
 ### 5. String and Dictionary Operations
 This section includes tasks on string processing and dictionary handling:
-- counting character occurrences
-- replacing repeated characters in a string
-- swapping first and last characters
-- extracting file extensions
-- counting word frequency
-- handling color lists
-- sorting and merging dictionaries
+- Counting character occurrences
+- Replacing repeated characters in a string
+- Swapping first and last characters
+- Extracting file extensions
+- Counting word frequency
+- Handling color lists
+- Sorting and merging dictionaries
+
+### 6. Loop Programs
+Practice using loops to repeat operations and solve iterative programming problems.
+
+### 7. Lambda Functions
+Exercises covering Python lambda expressions and their use in concise function-based operations.
+
+### 8. Regular Expressions
+Practice pattern matching and text processing with Python regular expressions.
+
+### 9. Class Operations
+Exercises introducing classes and object-oriented programming concepts.
+
+### 10. File Operations
+Practice working with files using Python's file-handling features.
+
+### 11. Additional Questions
+The repository also includes a question-and-answer script in the `11` folder, along with standalone programs for checking Disarium and Happy numbers.
 
 ## Environment and Requirements
 The programs in this repository are written using Python 3 and can be executed with:
 - Python IDLE
 - VS Code
-- any standard Python interpreter
+- Any standard Python interpreter
 
 ## Running the Programs
 To run a program:
@@ -95,24 +128,30 @@ cd MCA-Programming-Lab
 python "1. Integer Operations/1. Integer Operations Questions with Answers.py"
 ```
 
-Replace the file path with the program you want to run.
+Replace the file path with the program you want to run. For example, to run one of the standalone number programs:
+
+```bash
+python "Question - Happy Number.py"
+```
 
 ## Learning Outcomes
 By completing these exercises, students will gain practical experience in:
 - Python syntax and execution
-- conditional statements and loops
-- functions and modular programming
-- list and dictionary operations
-- string processing
-- problem-solving and algorithmic thinking
+- Conditional statements and loops
+- Functions and modular programming
+- List and dictionary operations
+- String processing
+- Regular expressions
+- Classes and file operations
+- Problem-solving and algorithmic thinking
 
 ## Academic Relevance
 This repository is suitable for students pursuing:
 - Bachelor’s or Master’s programs in Computer Science
 - Information Technology
 - MCA coursework
-- introductory programming fundamentals
-- software development practice
+- Introductory programming fundamentals
+- Software development practice
 
 ## Author
 Prithvi
